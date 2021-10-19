@@ -34,12 +34,12 @@ function truncate(string,n){
                 (((isLargeRow && movie.poster_path) ||
                 (!isLargeRow && movie.backdrop_path ))&&(
                 
-                <div className="group">
+                <div className="group" key={movie.id}>
                 <img 
                 
                 className={`row_poster ${ isLargeRow &&"row_posterLarge"}`}
                 
-                key={movie.id}
+                
                 src={`${base_url}${
                     isLargeRow ? movie.poster_path: movie.backdrop_path
                 }`} alt={movie.name} 

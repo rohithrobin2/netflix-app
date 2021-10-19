@@ -43,7 +43,7 @@ max-height: 250px;
 .movie_details{
 color:floralwhite;
     display: flex;
-    opacity: 30%;
+    opacity: 0.3;
     font-size: small;
     
     transition: transform 400ms;
@@ -52,6 +52,6 @@ color:floralwhite;
 }
 .group:hover > div{
     transform: scale(1.08);
-    opacity:100% ;
+   opacity: 1;
 
 }
