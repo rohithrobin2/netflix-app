@@ -49,7 +49,7 @@ function App() {
           <ProfileScreen/>
         </Route>
         <Route exact path="/">
-          <HomeScreen/>
+          <HomeScreen className="app--fadeBottom"/>
         </Route>
         </Switch>
      )}
